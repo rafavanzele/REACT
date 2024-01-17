@@ -97,3 +97,61 @@ const users = [
 const availableUsers = users.filter((user) => user.available)
 
 console.log(availableUsers)
+
+
+
+//4 TEMPLATE LITERALS
+
+const username = 'Rafael'
+const age = 37
+
+console.log(`O nome do usuário é ${username} e ele tem ${age} anos.`)
+
+
+
+//6 DESTRUCTURING
+
+const fruits = ["Banana", "Abacaxi", "Maçã"]
+
+const [f1, f2, f3] = fruits
+
+console.log(f2)
+
+
+
+
+const productDetails = {
+    name: "caneta",
+    price: 2.00,
+    category: "papelaria",
+    color: "azul",
+}
+
+// mudando o ex de cima pra o exemplo de baixo
+const {name: productName, price, category, color:productColor} = productDetails
+
+console.log(`O produto ${productName} custa R$${price} é da categoria ${category} e é da cor ${productColor}`)
+
+
+
+//7 SPREAD OPERATOR (USADO PARA UNIR ARRAYS E OBJETOS EM OUTROS ARRAYS E OBJETOS)
+
+const a1 = [1, 2, 3]
+const a2 = [7, 8, 9]
+
+const a3 = [...a1, ...a2]
+
+console.log(a3)
+
+
+const carName = {name: "Gol"}
+const carBrand = {brand: "VW"}
+const otherInfos = {km: 20000, price: 500000}
+
+const car = {...carName, ...carBrand, ...otherInfos}
+
+console.log(car)
+
+
+
+//8 CLASSES
