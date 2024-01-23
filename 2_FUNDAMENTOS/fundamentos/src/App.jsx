@@ -1,5 +1,6 @@
 //COMPONENTS
 import FirstComponent from './components/FirstComponent'
+import TemplateExpressions from './components/TemplateExpressions'
 
 //CSS
 import { useState } from 'react'
@@ -15,6 +16,7 @@ function App() {
       <div>
         <h1>FUNDAMENTOS DE REACT</h1>
         <FirstComponent />
+        <TemplateExpressions/>
       </div>
     </>
   )
