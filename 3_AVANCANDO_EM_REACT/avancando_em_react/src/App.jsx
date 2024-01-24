@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 
 import Variosguardachuva from './assets/variosguardachuva.jpg'
+import ManageData from './components/ManageData'
 
 
 function App() {
@@ -24,6 +25,8 @@ function App() {
         <div>
           <img src={Variosguardachuva} alt="varios guarda chuva" />
         </div>
+
+        <ManageData/>
 
       </div>
 
