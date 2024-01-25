@@ -2,6 +2,8 @@ import { useState } from 'react'
 import './App.css'
 
 import Variosguardachuva from './assets/variosguardachuva.jpg'
+import ConditionalRender from './components/ConditionalRender'
+import ListRender from './components/ListRender'
 import ManageData from './components/ManageData'
 
 
@@ -27,6 +29,8 @@ function App() {
         </div>
 
         <ManageData/>
+        <ListRender/>
+        <ConditionalRender/>
 
       </div>
 
