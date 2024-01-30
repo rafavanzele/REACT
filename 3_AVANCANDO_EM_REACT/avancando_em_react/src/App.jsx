@@ -12,6 +12,7 @@ import ListRender from './components/ListRender'
 import ManageData from './components/ManageData'
 import Message from './components/Message'
 import ShowUserName from './components/ShowUserName'
+import UserDetails from './components/UserDetails'
 
 
 function App() {
@@ -32,6 +33,14 @@ function App() {
   const handleMessage = (msg) => {
     setMessage(msg)
   }
+
+  const user = [
+    {nome: 'Rafael', idade: 16, profissao: 'estudante'},
+    {nome: 'Luiza', idade: 25, profissao: 'advogada'},
+    {nome: 'Pedro', idade: 31, profissao: 'professor'},
+    {nome: 'Ana', idade: 17, profissao: 'estudante'},
+    {nome: 'José', idade: 39, profissao: 'gari'}
+  ]
 
 
   return (
@@ -86,6 +95,11 @@ function App() {
         {/* state lift */}
         <Message msg={message}/>
         <ChangeMessageState handleMessage={handleMessage}/>
+
+        {/*desafio 4 userdetails */}
+        {user.map((user) => (
+          <UserDetails nome={user.nome} idade={user.idade} profissao={user.profissao}/>
+        ))}
 
       </div>
 
