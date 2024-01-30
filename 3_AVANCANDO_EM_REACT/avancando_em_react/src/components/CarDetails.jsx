@@ -1,9 +1,10 @@
 
 
 const CarDetails = ({brand, km, color, newCar}) => {
+    
   return (
     <div>
-        <h1>Destructuring Props:</h1>
+        
         <h2>Detalhes do Carro:</h2>
         <ul>
             <li>Marca: {brand}</li>
