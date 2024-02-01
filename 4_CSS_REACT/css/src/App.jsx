@@ -2,6 +2,7 @@ import { useState } from 'react'
 
 import './App.css'
 import MyComponents from './components/MyComponents'
+import Title from './components/Title'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -9,6 +10,8 @@ function App() {
   const n = 20
 
   const [name] = useState('Rafael')
+
+  const redTitle = true
 
   return (
     <>
@@ -32,6 +35,15 @@ function App() {
         <h2 style={n > 15 ? ({color: 'green'}) : ({color: 'purple'})}>CSS Inline Dinâmico</h2>
 
         <h2 style={name === 'Rafael' ? ({color: 'green'}) : ({color: 'purple'})}>CSS Inline Dinâmico - TESTE NOME</h2>
+
+
+        {/*Classes CSS dinâmicas */}
+        <h2 className={redTitle ? 'red-title' : 'title'}>Este título tem classe CSS dinâmica</h2>
+
+
+        {/*CSS Modules */}
+        <Title/>
+        <h2 className="my_title">Testando</h2>
 
       </div>
 

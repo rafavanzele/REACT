@@ -7,3 +7,14 @@ body {
 h1 {
   color: blue;
 }
+
+.red-title {
+  color: red;
+  background-color: black;
+  border: 10px solid darkred;
+}
+
+.title {
+  color: black;
+  background-color: lightblue;
+}
