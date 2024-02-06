@@ -10,7 +10,7 @@ function App() {
     <>
       {/*1- Criação de Form */}
       <h2>Formulários</h2>
-      <MyForm/>
+      <MyForm user={{name: 'Moisés', email: 'moises@gmail.com' }}/>
     </>
   )
 }
