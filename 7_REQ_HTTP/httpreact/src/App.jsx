@@ -26,7 +26,7 @@ function App() {
 
 
 
-  //add produtos/dados
+  //2- add produtos/dados
   const handleSubmit = async (e) => {
     e.preventDefault()
 
@@ -42,6 +42,16 @@ function App() {
       },
       body:JSON.stringify(product)
     })
+
+
+
+    //3- carregamento dinâmico
+    const addedProduct = await res.json()
+
+    setProducts((prevProducts) => [...prevProducts, addedProduct])
+
+    setName('')
+    setPrice('')
   }
 
   
