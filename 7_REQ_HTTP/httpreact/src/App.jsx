@@ -1,14 +1,21 @@
 import { useState, useEffect } from 'react'
 import './App.css'
 
+//4- Custom hook 
+import { useFetch } from './hooks/useFetch'
+
 const url = "http://localhost:3000/products"
 
 function App() {
   const [products, setProducts] = useState([])
 
+  //4- Custom hook
+  const {data: items} = useFetch(url)
+
   const [name, setName] = useState('')
   const [price, setPrice] = useState('')
 
+  /*
   //1- RESGATANDO DADOS
   useEffect(() => {
     
@@ -23,7 +30,7 @@ function App() {
       fetchData()
 
   }, [])
-
+  */
 
 
   //2- add produtos/dados
@@ -61,7 +68,7 @@ function App() {
       <h1>Lista de Produtos</h1>
 
       <ul>
-        {products.map((product) =>
+        {items && items.map((product) =>
           <li key={product.id}> {product.name} - R${product.price}</li>
         )}
       </ul>

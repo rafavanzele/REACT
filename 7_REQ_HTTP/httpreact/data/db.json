@@ -24,6 +24,26 @@
       "id": "1f86",
       "name": "cachecol",
       "price": "55.50"
+    },
+    {
+      "id": "af47",
+      "name": "chinelo",
+      "price": "23.50"
+    },
+    {
+      "id": "cd10",
+      "name": "sandália",
+      "price": "69.90"
+    },
+    {
+      "id": "43c7",
+      "name": "mesa",
+      "price": "500"
+    },
+    {
+      "id": "3044",
+      "name": "cadeira",
+      "price": "80.00"
     }
   ]
 }
