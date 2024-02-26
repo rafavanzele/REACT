@@ -44,6 +44,11 @@
       "id": "3044",
       "name": "cadeira",
       "price": "80.00"
+    },
+    {
+      "id": "da79",
+      "name": "poltrona",
+      "price": "255"
     }
   ]
 }
