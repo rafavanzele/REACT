@@ -49,6 +49,26 @@
       "id": "da79",
       "name": "poltrona",
       "price": "255"
+    },
+    {
+      "id": "73c9",
+      "name": "ventilador",
+      "price": "170"
+    },
+    {
+      "id": "6855",
+      "name": "ventilador",
+      "price": "170"
+    },
+    {
+      "id": "1e67",
+      "name": "ventilador",
+      "price": "170"
+    },
+    {
+      "id": "d989",
+      "name": "relógio",
+      "price": "450"
     }
   ]
 }
