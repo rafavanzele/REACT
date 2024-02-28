@@ -1,11 +1,6 @@
 {
   "products": [
     {
-      "id": "1",
-      "name": "camisa",
-      "price": 59.9
-    },
-    {
       "id": "2",
       "name": "bermuda",
       "price": 80
@@ -49,11 +44,6 @@
       "id": "da79",
       "name": "poltrona",
       "price": "255"
-    },
-    {
-      "id": "73c9",
-      "name": "ventilador",
-      "price": "170"
     },
     {
       "id": "d989",
