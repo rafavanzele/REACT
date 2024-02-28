@@ -1,11 +1,6 @@
 {
   "products": [
     {
-      "id": "2",
-      "name": "bermuda",
-      "price": 80
-    },
-    {
       "id": "3",
       "name": "meia",
       "price": 10.5
