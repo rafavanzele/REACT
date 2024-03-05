@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
-
+import './components/Navbar.css'
 
 //1- Configurando o router
 import {createBrowserRouter, Navigate, RouterProvider} from 'react-router-dom'
